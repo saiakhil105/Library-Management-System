@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1" metadata-complete="true">
+    
+    
+    <servlet>
+        <servlet-name>DataEntry</servlet-name>
+        <servlet-class>DataEntry</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DataEntry</servlet-name>
+        <url-pattern>/dataEntry.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ReturnDate</servlet-name>
+        <servlet-class>ReturnDate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnDate</servlet-name>
+        <url-pattern>/returnDate.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ClearTable</servlet-name>
+        <servlet-class>ClearTable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClearTable</servlet-name>
+        <url-pattern>/ClearTable.do</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

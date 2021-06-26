@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-color: #EEEEEE;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.book{
+    height: 70px;
+    width: 70px;
+}
+.AddDataForm{
+    max-height: 500px;
+    width: 30%;
+}
+.InfoTable{
+    width: 70%;
+}
+.NoEntry{
+    color:#505050;
+}
+.hr{
+    border-top: 2px solid #505050;
+}
+.TableBody{
+    display: block;
+    max-height: 390px;
+    overflow-y: scroll;
+}
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+thead {
+    width: calc( 100% - 1em )
+}
+td,th{
+    text-align: center;
+    vertical-align: middle !important;
+}
